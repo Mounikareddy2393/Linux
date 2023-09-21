@@ -8,3 +8,10 @@ bin dev home lib64 mnt proc run srv tmp var boot etc lib media opt root sbin sys
 /media ->mount CD/DVD , iso images
 /bin ->executable binary files/commands accessible by root and users
 /sbin ->super executable binary files/commands accessible just by root
+# ls
+# lsmem
+# lscpu
+# lsblk
+# lspci
+# lsscsi
+# lsusb
