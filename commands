@@ -1,0 +1,10 @@
+bin dev home lib64 mnt proc run srv tmp var boot etc lib media opt root sbin sys usr
+/root ->root user home dir
+/home ->other users home dir
+/boot ->OS boot files
+/etc ->stored Linux configuration files
+/dev ->stored Linux device files
+/mnt ->mount external storages likes pendrive, external hard disk
+/media ->mount CD/DVD , iso images
+/bin ->executable binary files/commands accessible by root and users
+/sbin ->super executable binary files/commands accessible just by root
