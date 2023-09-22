@@ -22,4 +22,12 @@ useradd	groupadd
 usermod	groupmod
 userdel	groupdel
 compgen -u >> Only user info
-/e
+system user >> (1000 ids) any package user 0r inbuilt user
+normal user
+root user >> admin or super user
+cat /etc/login.def >> umask,shell details, user info
+#gpasswd -a user group>adding user in a group
+#gpasswd -M user1,user2,... group>adding multiple users in a group
+
+
+
