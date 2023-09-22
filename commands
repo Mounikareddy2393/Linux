@@ -15,3 +15,11 @@ bin dev home lib64 mnt proc run srv tmp var boot etc lib media opt root sbin sys
 # lspci
 # lsscsi
 # lsusb
+user and group
+
+ users	   groups
+useradd	groupadd
+usermod	groupmod
+userdel	groupdel
+compgen -u >> Only user info
+/e
