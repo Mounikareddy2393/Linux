@@ -47,6 +47,7 @@ stickybit >> it prevent unwanted delition it indicates with "t"
 500 error trouble shoot >> database error
 How to check rpm packages >> #rpm -qa
 How to check yum packages >>yum list installed
+How to check repos >> #cat /etc/yum.repos.d/redhat-rhui*
 
 
 
