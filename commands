@@ -28,6 +28,28 @@ root user >> admin or super user
 cat /etc/login.def >> umask,shell details, user info
 #gpasswd -a user group>adding user in a group
 #gpasswd -M user1,user2,... group>adding multiple users in a group
+Processes >> a compailed source code program which is exec on machine or system
+    |
+parent precesses
+child
+init and systemd >> this is first processes started by kernel and it self
+zombie >which chaild contain parent processes called zombie
+demon > when poweron few processes continuously run that called demon
+#ps >> running processes will show
+#pstree
+#ps -eF
+#ps elf
+Interviw qns
+chatter +i >> once add for file we cant remove,#chatter -i we can remove
+How to check package of particular files
+rpm -qf <file name>
+stickybit >> it prevent unwanted delition it indicates with "t"
+500 error trouble shoot >> database error
+How to check rpm packages >> #rpm -qa
+How to check yum packages >>yum list installed
+
+
+
 
 
 
